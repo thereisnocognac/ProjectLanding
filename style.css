@@ -42,7 +42,7 @@ body {
 }
 
 .Header {
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 .Header ul {
@@ -62,9 +62,11 @@ body {
 .main {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     gap: 16px;
     padding: 60px 90px;
 }
+
 
 .main .first-p h1 {
     font-size: 48px;
@@ -95,6 +97,11 @@ body {
     margin-top: 20px;
 }
 
+.order {
+    padding: 10px 60px;
+    font-size: 16px;
+}
+
 
 /* CONTENT */
 
@@ -121,11 +128,36 @@ body {
     max-height: 300px;
 }
 
+.card .c1 {
+    background-image: url("https://static.wikia.nocookie.net/ogrebattlesaga/images/f/f7/LuCT_PSP_Chapter_4_Denam_Profile.png/revision/latest/scale-to-width-down/250?cb=20160617022552");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card .c2 {
+    background-image: url("https://static.wikia.nocookie.net/ogrebattlesaga/images/0/0b/LuCT_PSP_Hero_Vyce_Profile.png/revision/latest/scale-to-width-down/250?cb=20160630183406");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card .c3 {
+    background-image: url("https://static.wikia.nocookie.net/ogrebattlesaga/images/3/30/LuCT_PSP_Catiua_Profile.png/revision/latest?cb=20160625072856");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card .c4 {
+    background-image: url("https://static.wikia.nocookie.net/ogrebattlesaga/images/8/8b/LuCT_PSP_Canopus_Profile.png/revision/latest?cb=20160625072856");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .card p {
     text-align: center;
     color: #1F2937;
     font-weight: 300;
 }
+
 
 .cards {
     display: flex;
@@ -165,7 +197,7 @@ body {
 }
 
 
-/* FOOTER */
+/* CALL TO ACTION */
 
 
 .action {
@@ -201,5 +233,15 @@ body {
     font-weight: 700;
     margin-top: 20px;
     border: 2px white solid;
+}
+
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 10px;
+    color: #F9FAF8;
 }
 
