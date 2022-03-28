@@ -23,6 +23,7 @@ body {
 
 .header-colour {
     background-color: #1F2937;
+    margin-bottom: 96px;
 }
 
 .Header {
@@ -89,5 +90,50 @@ body {
     font-weight: 700;
     margin-top: 20px;
 }
+
+/* CONTENT */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 96px;
+}
+
+.content h2 {
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    max-height: 300px;
+}
+
+.card p {
+    text-align: center;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 160px;
+}
+
+.cards .sml-img {
+    border: 5px blue solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+
 
 
