@@ -168,3 +168,38 @@ body {
 /* FOOTER */
 
 
+.action {
+    display: flex;
+    border: 2px blue solid;
+    justify-content: center;
+    align-items: center;
+    max-width: auto;
+    max-height: 300px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: #3882f6;
+    gap: 100px;
+}
+
+.action .call h3 {
+    color: white;
+}
+
+.call p {
+    color: #F9FAF8;
+}
+
+.action button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 10px 25px;
+    color: white;
+    font-weight: 700;
+    margin-top: 20px;
+    border: 2px white solid;
+}
+
