@@ -19,7 +19,9 @@ body {
     margin: 0%;
 }
 
+
 /* HEADER */
+
 
 .header-colour {
     background-color: #1F2937;
@@ -53,7 +55,9 @@ body {
     color: #E5E7EB;
 }
 
+
 /* MAIN */
+
 
 .main {
     display: flex;
@@ -91,7 +95,9 @@ body {
     margin-top: 20px;
 }
 
+
 /* CONTENT */
+
 
 .content {
     display: flex;
@@ -135,5 +141,30 @@ body {
 }
 
 
+/* QUOTE */
+
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    text-align: center;
+}
+
+.quote blockquote {
+    font-style: italic;
+    max-width: 50%;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote figcaption {
+    text-align: right;
+}
+
+
+/* FOOTER */
 
 
