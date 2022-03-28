@@ -15,12 +15,79 @@ li {
 body {
     display: flex;
     flex-direction: column;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* HEADER */
+
+.header-colour {
+    background-color: #1F2937;
 }
 
 .Header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0;
-    padding: 0;
+    padding: 16px 32px;
 }
+
+.Header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.Header {
+    margin-bottom: 100px;
+}
+
+.Header ul {
+    display: flex;
+    gap: 16px;
+}
+
+.Header ul li a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* MAIN */
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    padding: 60px 90px;
+}
+
+.main .first-p h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.main .first-p p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main div {
+    flex: 1;
+}
+
+.img-head img {
+    max-height: 300px;
+    width: 700px;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: white;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
 
